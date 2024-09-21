@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ /* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+header h1{
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+nav li{
+    margin: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+    left: 0;
+    bottom: -5px;
+}
+nav a:hover{
+    border: 2.5px solid #000;
+    border-left: #fff;
+    border-right: #fff;
+    border-radius: 5px;
+    letter-spacing: 5px;
+    transition: all 750ms;
+}
+
+
+/* Hero */
+.Hero{
+    position: relative;
+    text-align: center;
+}
+.Hero img{
+    width: 50%;
+    height: auto;
+}
+
+.content{
+    color: rgb(252, 252, 252);
+    text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content h1{
+    font-size: 35px;
+    padding: 25px;
+}
+.content h1:hover{
+    font-size: 41px;
+    transition: all 500ms;
+}
+
+.cta-button{
+    padding: 10px 15px;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.cta-button:hover{
+    background-color: #000;
+}
+
+
+/* Features */
+.Features{
+    padding: 35px;
+    text-align: center;
+}
+.Features h2{
+    padding: 35px;
+    font-size: 35px;
+}
+
+.feature-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item-container{
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+}
+.item-container h4{
+    margin: 35px;
+    font-size: 25px;
+}
+.item-container img{
+    width: 50%;
+    height: auto;
+}
+
+
+/* Pricing */
+.Pricing{
+    padding: 50px;
+    text-align: center;
+}
+.Pricing h2{
+    padding: 35px;
+    font-size: 35px;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.pricing-container h3{
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.pricing-cards{
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    border: 1px solid #ddd;
+    color: #000;
+    border-radius: 10px;
+}
+
+.pricing-container img{
+    width: 50%;
+    height: auto;
+}
+
+.recommended{
+    text-align: center;
+    border-radius: 15px;
+    background-color: #333;
+    color: #ffffff;
+}
+.recommended:hover{
+    background-color: #000;
+}
+
+.buy-button{
+    padding: 10px 15px;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.buy-button:hover{
+    background-color: #000000;
+}
+
+
+/* Testimonial */
+.Testimonials{
+    text-align: center;
+    padding: 50px;
+}
+.Testimonials h3{
+    padding: 35px;
+    font-size: 35px;
+}
+.Testimonials p{
+    padding: 25px;
+    font-size: 25px;
+}
+
+.testimonial-container{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+.testimonial-container img{
+    width: auto;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.customer{
+    padding: 20px;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+/* Call-to-Action */
+.Call-to-Action{
+    padding: 50px;
+    text-align: center;
+}
+.Call-to-Action h3{
+    font-size: 35px;
+}
+.Call-to-Action p{
+    padding: 35px;
+    font-size: 35px;
+}
+
+
+/* Contact */
+.Contact{
+    padding: 50px;
+    text-align: center;
+}
+.Contact h3{
+    font-size: 35px;
+}
+.Contact form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Contact label{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.Contact input, textarea{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+/* Footer */
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: inline;
+}
+footer ul li a{
+    margin: 30px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+footer ul li a:hover{
+    border: 2.5px solid #000;
+    border-left: #fff;
+    border-right: #fff;
+    border-radius: 5px;
+    letter-spacing: 5px;
+    transition: all 750ms;
+}
+
+
+/* Responsive */
+@media(max-width: 768px){
+    .feature-container, .pricing-container, .testimonial-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .item-container, .pricing-cards{
+        width: 80%;
+    }
+}
